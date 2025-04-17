@@ -29,22 +29,24 @@ const Contact = () => {
 
         {/* Info Section */}
         <div className='w-full lg:w-1/2 space-y-8 text-indigo-900'>
+
+          {/* Store Info */}
           <div>
             <h3 className='text-2xl font-semibold mb-4 text-indigo-900'>Our Store</h3>
             <p className='text-indigo-700 leading-relaxed'>
-              <br />
-           DigVijay Nath P.G Collage
+              DigVijay Nath P.G College
             </p>
           </div>
 
+          {/* Contact Info */}
           <div>
             <h3 className='text-2xl font-semibold mb-4 text-indigo-900'>Contact Information</h3>
             <p className='text-indigo-700 leading-relaxed'>
-               <br />
-              Email: StyleNest@gmail.com
+              Email: <span className='font-medium'>StyleNest@gmail.com</span>
             </p>
           </div>
 
+          {/* Careers */}
           <div>
             <h3 className='text-2xl font-semibold mb-4 text-indigo-900'>Careers at StyleNest</h3>
             <p className='text-indigo-700 mb-6 leading-relaxed'>
@@ -53,6 +55,18 @@ const Contact = () => {
             <button className='bg-amber-400 hover:bg-amber-300 text-indigo-900 font-semibold px-8 py-3 rounded-lg hover:shadow-md transition-all'>
               Explore Careers
             </button>
+          </div>
+
+          {/* Team Info */}
+          <div className='bg-white rounded-xl p-6 shadow-md border-l-4 border-amber-400'>
+            <h3 className='text-2xl font-bold text-purple-800 mb-2'>Team: The Alfa Achievers</h3>
+            <p className='italic text-indigo-700 mb-4'>"Where Fashion Meets Your Personality"</p>
+            <p className='font-semibold text-indigo-900 mb-2'>Bachelor of Computer Science</p>
+            <ul className='list-disc list-inside text-indigo-800 space-y-1'>
+              <li>Anand Yadav (2315077260149)</li>
+              <li>Piyush Sharma (2315077260115)</li>
+              <li>Priyanshu Jaiswal (2315077260198)</li>
+            </ul>
           </div>
         </div>
       </div>

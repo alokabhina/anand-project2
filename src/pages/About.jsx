@@ -17,7 +17,7 @@ const About = () => {
         <img 
           className='w-full md:max-w-[450px] rounded-xl shadow-lg object-cover' 
           src={assets.about_img} 
-          alt="About Forever ecommerce" 
+          alt="About StyleNest ecommerce" 
         />
         <div className='flex flex-col justify-center gap-6 md:w-2/4 text-gray-600 text-sm sm:text-base'>
         <p>
