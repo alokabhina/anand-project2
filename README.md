@@ -137,7 +137,7 @@ npm run preview
 
 ## 🙏 Credits
 
-Developed by "   " under the guidance of **Supervisor Name**.  
+Developed by Team The Alfa Acheivers under the guidance of Pawan Kumar Pandey .  
 Thanks to open-source libraries and the Vite + React community!
 
 ---
